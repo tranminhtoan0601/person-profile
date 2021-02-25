@@ -1,0 +1,19 @@
+.box1{
+    padding: 30px 20px;
+    margin: 10px;
+    border-radius: 6px;
+    // transition: 0.5s;
+    transition: transform 1s;
+    
+    .box1__text{
+        text-align: center;
+        padding-top: 180px;
+    }
+    
+}
+.box1:hover{
+    background-color: red;
+  transform:scale(1.05);
+  box-shadow: yellow;
+
+}

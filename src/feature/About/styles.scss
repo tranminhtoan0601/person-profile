@@ -1,0 +1,28 @@
+.About {
+    display: flex;
+    // padding: 20px;
+    background-color: #191919;
+    height: 650px;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+   
+    &__image{
+        padding: 100px 0 100px 140px;
+        // width: 800px;
+        // height: 500px;
+        
+    }
+    &__context{
+        & > h1 {
+           font-size: 60px;
+           font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        & > h2 {
+            font-size: 18px;
+            
+        }
+        padding: 80px 60px 100px 50px;
+        color: white;
+    }
+}
